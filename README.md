@@ -15,13 +15,13 @@ Installation
 ------------
 
 ``` bash
-$ npm install castv2-client
+$ npm install @suni29/castv2-client
 ```
 
 On windows, to avoid native modules dependencies, use
 
 ``` bash
-$ npm install castv2-client --no-optional
+$ npm install @suni29/castv2-client --no-optional
 ```
 
 Examples
@@ -30,8 +30,8 @@ Examples
 ###Launching a stream on the device
 
 ``` javascript
-var Client                = require('castv2-client').Client;
-var DefaultMediaReceiver  = require('castv2-client').DefaultMediaReceiver;
+var Client                = require('@suni29/castv2-client').Client;
+var DefaultMediaReceiver  = require('@suni29/castv2-client').DefaultMediaReceiver;
 var mdns                  = require('mdns');
 
 var browser = mdns.createBrowser(mdns.tcp('googlecast'));
