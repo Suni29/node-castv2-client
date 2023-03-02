@@ -1,6 +1,9 @@
 castv2-client
 =============
-### A Chromecast client based on the new (CASTV2) protocol
+### A Chromecast client based on the new (CASTV2) protocol with implemented fixes for event emitter.
+### Event emitter [fix](https://github.com/thibauts/node-castv2-client/pull/56) by [BasKiers](https://github.com/BasKiers).
+### This package was created because the original package doesn't contain that pull request (which is 7+ years old).
+### Original [creator](https://github.com/thibauts) and [package](https://www.npmjs.com/package/castv2-client).
 
 This module implements a Chromecast client over the new (CASTV2) protocol. A sender app for the `DefaultMediaReceiver` application is provided, as well as an `Application` base class and implementations of the basic protocols (see the `controllers` directory) that should make implementing custom senders a breeze.
 
